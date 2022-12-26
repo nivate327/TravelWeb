@@ -1,0 +1,1165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Sulphur+Point&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --mainColor: #FF0000;
+    --secondColor: #31ff7a;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+
+.navbar-toggler:hover {
+    box-shadow: transparent !important;
+    border: transparent !important;
+
+}
+
+.TravelHome {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)), url("../public/img/travelEasy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+    color: white;
+}
+
+.navbar {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.nav-item {
+    margin: .5rem 1.2rem !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.4rem !important;
+}
+
+.heroTravel {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: yellow !important;*/
+
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #0f1f36;
+    color: white;
+    z-index: 5;
+    transition: all 0.2s linear;
+}
+
+.navbar
+{
+    z-index: 2 !important;
+}
+
+.navbar-brand {
+    font-size: 3rem !important;
+    color: white !important;
+    font-weight: 100;
+}
+
+.addListing {
+    background-color: var(--mainColor) !important;
+    color: white !important;
+    border-radius: 2rem !important;
+    padding: 1rem 2.1rem !important;
+    font-size: 1.4rem !important;
+}
+
+.tra {
+
+    color: var(--mainColor);
+
+    margin-right: .3rem;
+}
+
+.user {
+    font-size: 1.1rem;
+    margin-right: .6rem;
+}
+
+
+.explore {
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive !important;
+    color: var(--secondColor);
+}
+
+.world {
+    font-size: 7rem;
+    margin: 2rem 0;
+}
+
+.signIn {
+    font-size: .9rem !important;
+    color: white !important;
+}
+
+.searchText {
+    padding: 1.6rem 1.4rem;
+    width: 30rem;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+::placeholder {
+    font-size: 1.4rem !important;
+}
+
+.searchText:hover {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.searchBtn {
+    padding: 1.35rem 1.4rem;
+    width: 15rem;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border: none;
+    box-shadow: none;
+    background-color: var(--mainColor);
+    color: white;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+}
+
+.inputandbtn {
+    margin: 1rem 0;
+}
+
+/* popular location section */
+.place {
+    width: 29rem !important;
+    height: 25rem !important;
+    margin: 1.4rem 0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s linear !important;
+
+}
+
+.placeImg {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)) !important;
+    transition: all 0.2s linear !important;
+}
+
+.data {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+
+
+
+
+.most {
+    font-family: 'Dancing Script', cursive !important;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--mainColor);
+}
+
+.popularPlace {
+    padding: 4rem 0;
+}
+
+.locations {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.allPlaces {
+    margin-top: 3rem;
+}
+
+.placename {
+    margin-top: 16rem;
+    margin-left: 2.3rem;
+    color: whitesmoke !important;
+    font-size: 2.5rem;
+}
+
+.location {
+    margin-left: 2rem;
+}
+
+.place:hover .data {
+    opacity: 1;
+    background: linear-gradient(to top, rgba(202, 201, 201, 0.863), transparent);
+    ;
+}
+
+.place:hover img {
+    transform: scale(1.3) rotate(5deg);
+    opacity: 0.8;
+    z-index: 1;
+
+}
+
+.location {
+    background-color: var(--mainColor) !important;
+    color: white !important;
+    border-radius: 2rem !important;
+    padding: 1rem 1.8rem !important;
+    font-size: 1.3rem !important;
+    border: none;
+}
+
+.viewAll {
+    display: block;
+    margin: auto;
+    background-color: var(--mainColor);
+    border-radius: 2rem;
+    color: white;
+    padding: 1.3rem 2.5rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+/* how works css code */
+
+.howwork {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.7), rgb(61, 48, 73, 0.7)), url("../public/img/japan.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0.8;
+    color: white;
+    z-index: -1;
+}
+
+.headingofHow .explore {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.works {
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+
+.cardwork {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    border: none !important;
+}
+
+.underbox {
+    width: 7rem;
+    height: 7rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardicon {
+
+    color: var(--secondColor);
+    font-size: 2.8rem;
+
+}
+
+
+.boxcent {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: inherit;
+    height: inherit;
+    background-color: transparent;
+    border: 3px dashed var(--secondColor);
+    border-radius: 50%;
+    animation: rot 7s linear infinite;
+    position: absolute;
+
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.howwork {
+    padding: 6rem 0;
+}
+
+.workpara {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.title {
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-top: 0.5rem
+}
+
+/* featured catogories section */
+.feuturedCatgories {
+    padding: 4rem 0;
+    z-index: -1;
+}
+
+.featuredHeading .explore {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--mainColor);
+}
+
+.featuredHeading .works {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 500;
+
+}
+
+.featureCard {
+    padding: 4rem 2rem;
+    margin: 3rem 0;
+    position: relative;
+    transition: all 0.2s linear;
+    z-index: -1;
+}
+
+
+.featureCard:hover
+{
+    cursor: pointer;
+}
+
+.featureCard:hover .featureIcon {
+    color: white !important;
+}
+
+.featureCard:hover .viewDetails {
+    color: white !important;
+}
+
+
+.featureIcon {
+    font-size: 3.5rem;
+    color: var(--mainColor);
+    display: block;
+    text-align: center;
+}
+
+.service {
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.service_description {
+    font-size: 1.3rem !important;
+    text-align: center;
+}
+
+.viewDetails {
+    background-color: transparent;
+    box-shadow: transparent !important;
+    width: 7rem;
+    display: block;
+    margin: 1rem auto;
+
+}
+
+/* newsletter section */
+.newsletter {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)), url("../public/img/newsletter.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    color: white;
+
+}
+
+
+.newsletterHeading {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.newsletterHeading .explore {
+
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--secondColor);
+    margin: .7rem 0;
+}
+
+.newsletterHeading .works {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin: .7rem 0;
+}
+
+
+.newsletter .searchText {
+    width: 26rem;
+}
+
+
+.newsletter .searchBtn {
+    width: 15rem;
+}
+
+/* ourBlog section start */
+.ourBlog {
+    background-color: lightgoldenrodyellow;
+    z-index: -1;
+}
+
+.newstips {
+    width: 28rem;
+    height: 36rem;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: -1;
+    
+}
+
+.newstipsImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.4s linear;
+    z-index: -1;
+}
+
+.blogCard
+{
+   z-index: -1 !important;
+}
+
+.blog
+{
+    z-index: 1;
+}
+
+.newstipsImg:hover {
+    transform: scale(1.1);
+}
+
+.ourBlogHeading .explore {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--mainColor);
+}
+
+.ourBlogHeading .works {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.ourBlog {
+    padding: 5rem 0;
+}
+
+.healthandcare {
+    color: var(--mainColor);
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blogdescip {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.date {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+/* footer code css */
+.footer {
+    width: 100%;
+    height: 70vh;
+    background: #183153;
+    position: relative;
+}
+
+.footerRow {
+    padding: 6rem 0;
+}
+
+.logo {
+    color: white;
+    font-size: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+.quicklink {
+    color: white;
+    font-size: 2.1rem;
+    margin-left: .9rem;
+    margin-bottom: 1rem;
+}
+
+.footerlist li .nav-link {
+    font-size: 1.2rem !important;
+    color: #8ba4b1 !important;
+}
+
+.download img {
+    width: 3rem;
+    height: 4rem;
+}
+
+.download {
+    margin-left: 1rem !important;
+}
+
+.downloadIcon {
+    font-size: 2.7rem;
+    color: #8ba4b1;
+}
+
+.hr {
+    border: 3px doted white;
+    width: 100%;
+    height: .1px;
+    background-color: #8ba4b1;
+    margin-top: 1rem;
+
+}
+
+.footerheadLine {
+    color: #8ba4b1;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.footerlast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialIcon i {
+    color: #8ba4b1;
+    font-size: 2.5rem;
+    margin: 0.8rem .7rem;
+}
+
+/* slider */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+.commenter {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: orangered;
+}
+
+.skill {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.swiper-button-next {
+    color: var(--mainColor) !important;
+    margin-right: 5rem !important;
+}
+
+.swiper-button-prev {
+    color: var(--mainColor) !important;
+    margin-left: 5rem !important;
+}
+
+
+.slideText {
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.commentBy {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.ourSlider .explore {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--mainColor);
+    margin: .7rem 0;
+}
+
+.ourSlider .works {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.sliderSection {
+    padding: 3rem 0;
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+/* about section */
+.about {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)), url("../public/img/nightView.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0.8;
+    color: white;
+
+}
+
+.aboutText {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: inherit;
+    height: inherit;
+    z-index: -1;
+}
+
+.aboutus {
+    font-size: 5.5rem;
+}
+
+.aboutPart {
+    padding: 5rem 0;
+}
+
+.aboutHead .explore {
+    font-size: 2.5rem;
+    color: var(--mainColor);
+
+}
+
+.aboutHead .works {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.aboutRow {
+    padding: 3rem 1.7rem;
+}
+
+.aboutDescri {
+    font-size: 2.2rem;
+    margin: 1rem 0;
+}
+
+.descText {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/* CATEGORIES */
+.catgories {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)), url("../public/img/nightView.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+    color: white;
+}
+
+.catcenter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: inherit;
+    height: inherit;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catHead {
+    font-size: 5.5rem;
+}
+
+/* Contact */
+
+.contact {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)), url("../public/img/nightView.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+    color: white;
+}
+
+.getintouch {
+    font-size: 3rem;
+}
+
+.mapc {
+    padding: 4rem 0 !important;
+}
+
+.map {
+    padding: 4rem 0 !important;
+}
+.emailandname {
+    display: flex;
+}
+
+.emailandname .form-control {
+    width: 31rem;
+    padding: 1rem .8rem !important;
+    border-radius: 0px;
+}
+
+.subject {
+    padding: 1rem .8rem !important;
+    border-radius: 0px;
+}
+
+.textarea {
+    border-radius: 0px;
+    padding: 1rem .8rem !important;
+}
+
+::placeholder {
+    font-size: 1.2rem !important;
+}
+
+
+
+
+.form .form-group {
+    margin: 1rem 0 !important;
+}
+
+.contactForm {
+    padding: 4rem 0;
+    z-index: -1;
+}
+
+.submit {
+    color: var(--mainColor) !important;
+    border-radius: 0px !important;
+    padding: 1rem 4rem !important;
+    border: .1rem solid var(--mainColor);
+    font-size: 1.4rem !important;
+    margin: 1rem 0;
+    background: transparent;
+    transition: all 0.2s linear;
+}
+
+.submit:hover {
+    background-color: var(--mainColor);
+    color: white !important;
+}
+
+.bio {
+    margin-right: 5rem;
+}
+
+.add {
+    display: flex;
+    margin: 3rem 0;
+    margin-left: 5rem;
+
+}
+
+.phone {
+    display: flex;
+    margin: .3rem 0;
+}
+
+.city {
+    font-size: 1.4rem;
+}
+
+.area {
+    font-size: 1.2rem;
+    margin: .4rem 0;
+    color: gray;
+}
+
+.bioIcon {
+    font-size: 1.9rem;
+    margin: 1.1rem 1rem;
+    color: gray;
+    margin-right: 1.5rem;
+}
+
+.listing {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)), url("../public/img/nightView.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+    color: white;
+}
+
+.listingCard {
+    padding: 3rem;
+    z-index: -1;
+
+}
+
+.listingSection
+{
+    z-index: -1;
+}
+
+.filter {
+    margin-bottom: 3rem;
+}
+
+.find {
+    padding: 1rem .8rem !important;
+    border-radius: 5px;
+
+}
+
+.listingform .dropdown {
+    padding: .5rem .8rem !important;
+    border: 1px solid rgb(219, 219, 219);
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+.listingform .dropdown a {
+    font-size: 1.2rem !important;
+    color: gray;
+}
+
+.listingform .dropdown a:hover>.dropdown-menu {
+    background-color: rgb(211, 205, 205) !important;
+    color: rgb(43, 42, 42);
+}
+
+.full {
+    width: 1.7rem !important;
+    height: 1rem !important;
+}
+
+.reset {
+    padding: .8rem 4rem !important;
+    background-color: var(--mainColor);
+    color: white;
+    font-size: 1.4rem !important;
+    margin: 1rem 0;
+    transition: all 0.2s linear;
+    width: 100%;
+    border-radius: 5px;
+    margin: .8rem 0;
+}
+
+.form-check {
+    font-size: 1.2rem !important;
+}
+
+
+.checkbox-lg .form-check-input {
+    top: 1.2rem;
+    scale: 1.7;
+    margin-right: 0.8rem;
+}
+
+.checkbox-lg .form-check-label {
+    padding-top: 13px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+
+
+.Cardlist {
+    width: 27rem;
+    height: 35rem;
+    position: relative;
+    border-radius: 5px;
+    border-top: 0px !important;
+    overflow: hidden;
+    margin-bottom: 3.5rem;
+    z-index: -1;
+}
+
+.Cardlist img {
+    width: 100%;
+    height: 28rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 0.4s linear;
+    object-fit: cover;
+}
+
+.Cardlist img:hover {
+    transform: scale(1.1);
+}
+
+
+.listavi {
+    margin-bottom: 3rem;
+    margin-left: 1.4rem;
+}
+
+.listTitle {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.listBody {
+    margin: 1.5rem;
+}
+
+.listText {
+    font-size: 1.3rem;
+    color: gray;
+    margin: 1.4rem 0;
+}
+
+
+
+.emailPhone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailPhone p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.listBody hr {
+    margin-top: 2rem;
+}
+
+.open {
+    background-color: var(--mainColor) !important;
+    color: white !important;
+    border-radius: 2rem !important;
+    padding: .4rem 2.6rem !important;
+    font-size: 1.4rem !important;
+    position: absolute;
+    top: 16rem;
+    left: 17rem;
+}
+
+.listingadd {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgb(61, 48, 73, 0.4), rgb(61, 48, 73, 0.4)), url("../public/img/nightView.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+    color: white;
+}
+
+.listMain
+{
+    margin:0 10rem;
+}
+
+.describ
+{
+    margin: 4rem 0;
+}
+
+.describ h3, .l{
+    font-size: 2.5rem;
+    margin-bottom: 1.4rem;
+    
+}
+
+.describ p{
+    font-size: 1.2rem;
+    line-height: 2.3
+    rem;
+}
+
+.emailandnamelist {
+    display: flex;
+}
+
+
+.emailandnamelist .form-control
+{
+    width: 33.2rem;
+    padding: 1rem .8rem !important;
+    border-radius: 0px;
+}
+
+.topbtn
+{
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+}
+
+.scrollBtn
+{
+    background-color: var(--mainColor);
+    color: white;
+    border-radius: 1px;
+    padding: .5rem 1rem;
+}
+
+.fa-arrow-turn-up
+{
+    font-size: 2rem;
+    color: white;
+}

@@ -1,0 +1,534 @@
+/* navbar responsive tablet */
+@media(max-width: 770px) {
+    .world {
+        font-size: 5.2rem;
+    }
+
+
+    .explore {
+        font-size: 3.2rem;
+    }
+
+
+    .searchBtn {
+        margin-top: 0rem;
+        font-size: 1.3rem;
+    }
+}
+
+/* navbar responsive mobile */
+@media(max-width: 480px) {
+    .world {
+        font-size: 4.2rem;
+    }
+
+
+    .explore {
+        font-size: 3.2rem;
+    }
+
+
+    .searchBtn {
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        margin-bottom: 0.1rem;
+        padding: 1.3rem 1.4rem;
+    }
+
+    .searchText {
+        padding: 1.5rem 1.3rem;
+        width: 25rem;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+/* navbar responsive midmobile */
+@media(max-width: 390px) {
+    .world {
+        font-size: 3.5rem;
+    }
+
+
+    .explore {
+        font-size: 2.5rem;
+    }
+
+
+    .searchBtn {
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        margin-bottom: 0.1rem;
+        padding: 1.2rem 1.4rem;
+    }
+
+    .searchText {
+        padding: 1.5rem 1.3rem;
+        width: 18rem;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+/* navbar responsive smallmobile */
+@media(max-width: 330px) {
+    .world {
+        font-size: 3.2rem;
+    }
+
+
+    .explore {
+        font-size: 2.5rem;
+    }
+
+
+    .searchBtn {
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        margin-bottom: 0.1rem;
+        padding: 1.2rem 1.4rem;
+        width: 13rem;
+    }
+
+    .searchText {
+        padding: 1.4rem 1.3rem;
+        width: 18rem;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+/* navbar responsive foldmobile */
+@media(max-width: 280px) {
+    .world {
+        font-size: 2.5rem;
+    }
+
+
+    .explore {
+        font-size: 2rem;
+    }
+
+
+    .searchBtn {
+        margin-top: 0rem;
+        font-size: 1.3rem;
+        margin-bottom: 0.1rem;
+        padding: 1.2rem 1.4rem;
+        width: 11rem;
+    }
+
+    .searchText {
+        padding: 1.4rem 1.3rem;
+        width: 16rem;
+
+    }
+}
+
+/* ** place resposive ** */
+
+@media(max-width:1000px) {
+    .placecrd {
+        display: flex;
+        justify-content: center;
+    }
+
+    .place {
+        margin: 3rem 0;
+    }
+
+    .emailandname .form-control {
+        width: 35.3rem;
+
+    }
+
+    .emailandname .form-control {
+        width: 35.3rem;
+
+    }
+
+    .listMain {
+        margin: 0 6rem;
+    }
+}
+
+@media(max-width: 480px) {
+
+    .locations {
+        font-size: 3rem;
+    }
+
+    .works {
+        font-size: 3rem;
+    }
+
+    .featuredHeading .works {
+        font-size: 3rem;
+    }
+}
+
+
+/* ** howwork resposive ** */
+
+@media(max-width:580px) {
+    .howwork {
+        width: 100%;
+        height: 100rem;
+    }
+
+    .emailandname {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contform {
+        padding: 0rem 2rem;
+    }
+
+    .subject {
+        width: 40rem;
+    }
+
+    .textarea {
+
+        width: 40rem;
+    }
+
+}
+
+
+@media(max-width:768px) {
+    .featurecrdmain {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/* ** blogger responsive ** */
+
+@media(max-width:990px) {
+
+    .blog {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blogCard {
+        margin: 2rem 0;
+        padding-left: 5rem;
+    }
+
+    .filtermedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .listingCard {
+        padding: 3rem;
+        z-index: -1;
+        width: 38rem;
+        margin-bottom: 5rem;
+    }
+
+    .emailandname .form-control {
+        width: 40.4rem;
+
+    }
+
+    .addCart
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .listMain {
+        margin: 0 6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .blogCard {
+        margin: 2rem 0;
+        padding-left: 8rem;
+    }
+
+   
+
+}
+
+@media (max-width: 390px) {
+    .blogCard {
+        margin: 2rem 0;
+        padding-left: 5rem;
+    }
+
+}
+
+
+@media (max-width: 330px) {
+    .blogCard {
+        margin: 2rem 0;
+        padding-left: 2.5rem;
+    }
+
+}
+
+@media (max-width: 280px) {
+    .blogCard {
+        margin: 2rem 0;
+        padding-left: 0rem;
+    }
+
+}
+
+/* ** newsletter responsive ** */
+@media (max-width: 480px) {
+    .newsletterHeading .works {
+        font-size: 3.5rem;
+    }
+
+
+    .newsletterHeading .searchBtn {
+        padding: 1.33rem 1.4rem;
+    }
+
+    .newsletterHeading .searchText {
+        padding: 1.56rem 1.3rem;
+        width: 20rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .newsletterHeading .works {
+        font-size: 3.5rem;
+    }
+
+    .ourBlogHeading .works {
+        font-size: 3.5rem;
+    }
+
+    .newsletterHeading .searchBtn {
+        padding: 1.2rem 1.4rem;
+        width: 13rem;
+    }
+
+    .newsletterHeading .searchText {
+        padding: 1.4rem 1.3rem;
+        width: 18rem;
+
+    }
+}
+
+@media(max-width: 280px) {
+    .newsletterHeading .searchBtn {
+        padding: 1.2rem 1.4rem;
+        width: 11rem;
+    }
+
+    .newsletterHeading .searchText {
+        padding: 1.4rem 1.3rem;
+        width: 16rem;
+
+    }
+
+    .listingCard {
+        width: 26rem;
+    }
+}
+
+
+@media(max-width: 770px) {
+    .ourSlider .works {
+        font-size: 4rem;
+    }
+
+    .swiper-button-next {
+        color: transparent !important;
+    }
+
+    .swiper-button-prev {
+        color: transparent !important;
+    }
+
+    .listingCard {
+        width: 35rem;
+    }
+
+    .emailandname .form-control {
+        width: 30.2rem;
+
+    }
+}
+
+@media(max-width: 760px) {
+    .footer {
+        width: 100%;
+        height: 70rem;
+        background: #183153;
+        position: relative;
+
+    }
+
+    .footerRow {
+        padding-left: 3rem;
+    }
+
+   
+
+
+}
+
+@media(max-width: 480px) {
+    .ourSlider .works {
+        font-size: 3.5rem;
+    }
+
+    .swiper-button-next {
+        color: transparent !important;
+    }
+
+    .swiper-button-prev {
+        color: transparent !important;
+    }
+
+    .slideText {
+        padding: 1rem 4rem !important;
+    }
+
+    .footer {
+        width: 100%;
+        height: 70rem;
+        background: #183153;
+        position: relative;
+    }
+
+    .listingCard {
+        width: 30rem;
+    }
+
+}
+
+@media(max-width: 330px) {
+    .ourSlider .works {
+        font-size: 3rem;
+    }
+
+    .swiper-button-next {
+        color: transparent !important;
+    }
+
+    .swiper-button-prev {
+        color: transparent !important;
+    }
+
+    .listingCard {
+        width: 28rem;
+    }
+
+    .footer {
+        width: 100%;
+        height: 70rem;
+        background: #183153;
+        position: relative;
+    }
+
+    .footerlast {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:580px) {
+    .emailandname .form-control {
+        width: 40rem;
+
+    }
+
+
+    .mapc {
+        padding: 4rem 3rem !important;
+    }
+
+
+    .getintouch {
+        text-align: center;
+    }
+
+    .contform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutPart .explore
+    {
+        text-align: center;
+    }
+
+    .aboutPart .works
+    {
+        text-align: center;
+    }
+
+    .descText
+    {
+        text-align: center;
+    }
+
+    .aboutRow
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .rowab
+    {
+        margin:0 1rem ;
+    }
+
+    .rowab2
+    {
+        margin:0 2rem ;
+    }
+}
+
+@media(max-width:370px)
+{
+    .emailandname .form-control {
+        width: 30rem;
+
+    }
+
+    .contform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .textarea {
+
+        width: 30rem;
+    }
+
+    .subject {
+
+        width: 30rem;
+    }
+}
+
